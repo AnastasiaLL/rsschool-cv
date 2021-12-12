@@ -54,7 +54,7 @@
 * English - A2/B1 *(I had language experience in an international volunteer program)*
 * Russian - Native
 
-### Code examples
+### Code example
 
     <div class="main">
         <fieldset class="fie">
