@@ -1,8 +1,17 @@
 # Anastasia Lukyanchik
 #### Junior Frontend Developer
 ---
+### Contact information
+---
+**Location:** Minsk, Belarus
 
+**Phone:** +375-25-939-79-44
 
+**E-mail:** lukyanchik.nastya@bk.ru
+
+**Telegram:** @Your_exogenesis
+
+**Discord:**  AnastasiaLL#0717
 
 
 ### About Me
