@@ -27,8 +27,7 @@ body {
  /* Header */
 
 .header {
-
-    border: 1px solid rgb(136, 95, 184);
+    background-color: #136cb4;
 } 
 
 .nav-list{
@@ -41,9 +40,8 @@ body {
 .nav-link {
     text-decoration: none;
     color: white;
-    border: 1px solid #1379b4;
     background-color: #136cb4;
-    padding: 0 20px;
+    padding: 30px 20px;
     line-height: 50px;
     transition: .3s;
   }
@@ -54,58 +52,63 @@ body {
 
  /* Header end*/
 
-
-
-
-
-
-
-.main {
-
-    border: 1px solid rgb(34, 149, 184);
-} 
-
-.footer {
-    border: 1px solid rgb(184, 34, 139);  
+.avatar {
+    margin-top: 30px;
+    border-radius: 200px; /* Радиус скругления */
+    box-shadow: 0 0 7px rgb(38, 193, 221); /* Параметры тени */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* main */
+ .bold {
+     font-weight: bold;
+ }
 
-/* .main {
-    min-height: 100vh;
-    width: 100%;
-    margin: 2rem auto;
+ .italics {
+     font-style: italic;
+ }
+
+.lis-disc {
+    list-style-type: disc;
 }
 
-.left-section {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 50%;
-    background-color: rgb(84, 48, 182);
+.lis-circle {
+    list-style-type: circle;
 }
 
-.right-section {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    width: 50%;
-    background-color: rgb(131, 163, 43);
-} */
+.code {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    width: 40%;
+}
+.light{
+    color: mediumvioletred;
+}
+/* main */
 
 
-/* main end */
+/* footer */
+
+.footer {
+    background-color: #136cb4;
+}
+
+.inf-footer {
+    color: white;
+}
+
+.git-link {
+    text-decoration: none;
+    color: white;
+}
+
+.date {
+    color: white;
+}
+
+.rss-img{
+    width: 121px;
+    height: 45px;
+    margin-left: 90%;   
+}
+/* footer end */
