@@ -17,7 +17,7 @@
       <div class="container">
         <nav class="nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#contacts" class="nav-link">Contact information</a></li>
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
                 <li class="nav-item"><a href="#about me"class="nav-link">About me</a></li>
                 <li class="nav-item"><a href="#education"class="nav-link">Education</a></li>
                 <li class="nav-item"><a href="#skills"class="nav-link">Skills</a></li>
@@ -29,17 +29,26 @@
       </div>
     </header>
 
-    <main class="main">
+
+    <main>
         <div class="container">
 
-            <section class="section" id="profile">
+        <div class="main-container">
+
+
+            <section class="section" id="avatar">
                 <img src="1.jpg" width="300" height="300" alt="avatar" class="avatar">
+            
+            </section>
+
+            <section class="section" id="profile">
+                
                 <h1 class="section-title"> Anastasia Lukyanchik </h1>
                 <p class="inf-profile">Junior Frontend Developer</p>
             </section>
 
             <section class="section" id="contacts">
-                <h2 class="section-title"> Contact information </h2>
+                <h2 class="section-title"> Contacts </h2>
                 <p class="inf-contacts">
                     <span class="bold">Location:</span> Minsk, Belarus<br>
                     <span class="bold">Phone:</span>  +375-25-939-79-44<br>
@@ -67,6 +76,42 @@
             
             </section>
 
+            <section class="section" id="courses">
+                <h2 class="section-title">Courses</h2>
+                <ul class="inf-courses">
+                    <li class="lis-disc">JavaScript on learnjavascript.ru</li>
+                    <li class="lis-disc">IT-Academy "Fundamentals of web technologies"</li>
+                    <li class="lis-disc">Udemy course "JavaScript + React - from zero to result" <span class="italics">(in progress)</span></li>
+                    <li class="lis-disc">RS Schools Course "JavaScript/Front-end. Stage 0" <span class="italics">(in progress)</span</li>
+                </ul>
+            </section>
+
+            
+
+
+
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre  class="code"><code>
+                    function <span class="light">hello ()</span>{
+                        let somewords = "This is a code example.";
+                        console.log(somewords);
+                    };
+                    <span class="light">hello()</span>;
+                </code></pre>
+            </section>
+
+
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul class="inf-languages">
+                    <li class="lis-disc">English - A2/B1 <span class="italics">(I had language experience in an international volunteer program)</span</li>
+                    <li class="lis-disc">Russian - Native</li>
+                </ul>
+            </section>
+
+
             <section class="section" id="skills">
                 <h2 class="section-title">Skills</h2>
                 <ul class="inf-skills">
@@ -93,36 +138,13 @@
                 </ul>
             </section>
 
-            <section class="section" id="courses">
-                <h2 class="section-title">Courses</h2>
-                <ul class="inf-courses">
-                    <li class="lis-disc">JavaScript on learnjavascript.ru</li>
-                    <li class="lis-disc">IT-Academy "Fundamentals of web technologies"</li>
-                    <li class="lis-disc">Udemy course "JavaScript + React - from zero to result" <span class="italics">(in progress)</span></li>
-                    <li class="lis-disc">RS Schools Course "JavaScript/Front-end. Stage 0" <span class="italics">(in progress)</span</li>
-                </ul>
-            </section>
-
-            <section class="section" id="languages">
-                <h2 class="section-title">Languages</h2>
-                <ul class="inf-languages">
-                    <li class="lis-disc">English - A2/B1 <span class="italics">(I had language experience in an international volunteer program)</span</li>
-                    <li class="lis-disc">Russian - Native</li>
-                </ul>
-            </section>
-
-           <section class="section" id="code-example">
-            <h2 class="section-title">Code example</h2>
-            <pre  class="code"><code>
-                function <span class="light">hello ()</span>{
-                    let somewords = "This is a code example.";
-                    console.log(somewords);
-                };
-                <span class="light">hello()</span>;
-            </code></pre>
-
-           </section>
         </div>
+
+            <div>
+                <a class="up" href=#>&#9650</a>
+            </div>
+        </div>
+        <div class="end-main"> </div>
     </main>
 
     <footer class="footer">
@@ -134,8 +156,6 @@
             <a href="https://rs.school/js/"> <img class="rss-img" src="rs_school_js.svg" alt="RSS"> </a>
         </div>
     </footer>
-
-
 
 </body>
 </html>
