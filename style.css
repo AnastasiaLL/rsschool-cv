@@ -141,6 +141,12 @@ body {
     color: mediumvioletred;
 }
 
+
+.cv-link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
 .up{
     border-radius: 20px; /* Радиус скругления */
     text-decoration: none;
