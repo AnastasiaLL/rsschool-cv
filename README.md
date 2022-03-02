@@ -1,3 +1,3 @@
-https://AnastasiaLL.github.io/rsschool-cv/cv
+CV  -   https://AnastasiaLL.github.io/rsschool-cv/
 
-https://AnastasiaLL.github.io/rsschool-cv/
+Markdown - https://AnastasiaLL.github.io/rsschool-cv/cv
