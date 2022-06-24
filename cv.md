@@ -5,8 +5,6 @@
 ---
 **Location:** Minsk, Belarus
 
-**Phone:** +375-25-939-79-44
-
 **E-mail:** lukyanchik.nastya@bk.ru
 
 **Telegram:** @Your_exogenesis
@@ -16,7 +14,7 @@
 
 ### About Me
 ---
- I am 25 years old, I am a civil engineer. I work in the field of energy and dream about changing my profession. My big goal is to gain knowledge in the field of front-end development.
+ I am 26 years old, I am a civil engineer. I work in the field of energy and dream about changing my profession. My big goal is to gain knowledge in the field of front-end development.
 
 
 ### Education
@@ -29,8 +27,8 @@
 ---
 * HTML
 * CSS 
-    * Framework Bootstrap
-* JavaScript basics
+    * SASS
+* JavaScript
 * Version control
     * Git & GitHub
 * Editors
@@ -45,53 +43,14 @@
 ---
 * JavaScript on learnjavascript.ru
 * IT-Academy "Fundamentals of web technologies"
-* Udemy course "JavaScript + React - from zero to result" (in progress)
-* RS Schools Course "JavaScript/Front-end. Stage 0" (in progress)
+* Udemy course "JavaScript + React - from zero to result"
+* RS Schools Course "JavaScript/Front-end. Stage 0"
+* RS Schools Course "JavaScript/Front-end. (in progress)
 
 
 ### Languages
 ---
-* English - A2/B1 *(I had language experience in an international volunteer program)*
+* English - B1 *(I had language experience in an international volunteer program)*
 * Russian - Native
 
-### Code example
-
-    <div class="main">
-        <fieldset class="fie">
-        <legend> ЧАСЫ </legend>
-        <div id="clock"></div>
-        <input type="button" onclick="start()" value="Старт">
-        <input type="button" onclick="stop()" value="Стоп">
-        </fieldset>
-    </div>
-    <script>
-    let timerId 
-    let current = new Date();
-    function ziro (value)
-    {
-    if (value <10) {
-    value= '0'+value;}
-    return value;
-    };
-    function time ()
-    {
-    let current = new Date();
-    let hours = ziro(current.getHours());
-    let minutes = ziro(current.getMinutes());
-    let seconds = ziro(current.getSeconds());
-    return `<span style='color:red;'>${hours}</span>:<span style='color:green;'>${minutes}</span>:<span style='color:blue;'>${seconds}</span>`;
-    };
-    function clock ()
-    {
-    document.getElementById('clock').innerHTML = time();
-    };
-    function start (){
-        timerId= setInterval(() =>clock(), 1000);
-        clock()
-    };
-    function stop (){
-        clearInterval(timerId);
-    };
-    start();
-    </script> 
 
